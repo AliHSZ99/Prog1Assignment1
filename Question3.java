@@ -27,7 +27,7 @@ public class Question3{
 		int sum = conversion1 + conversion2 + conversion3;            
 		//Here we entered the sum and printed the message and the value to the console
 		System.out.println("\nThe sum of the digits entered is " +
-							sum);
+				   sum);
 
 		System.out.println("\n***************************************");
 
