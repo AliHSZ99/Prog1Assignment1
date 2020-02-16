@@ -22,19 +22,19 @@ public class Question5{
 
 		// Here are where all the mathematical operations are done using the Math class 
 		System.out.println("\n" + number + " raised to the power of 2 is " +
-							Math.pow(number, 2));
+			           Math.pow(number, 2));
 
 		System.out.println(number + " raised to the power of 3 is " +
-							Math.pow(number, 3));
+				   Math.pow(number, 3));
 
 		System.out.println("The square root of " + number + " is " +
-							Math.sqrt(number));
+				   Math.sqrt(number));
 
 		System.out.println("The natural logarithm of " + number + " is " +  
-							Math.log(number));
+				   Math.log(number));
 
 		System.out.println("The base 10 logarithm of " + number + " is " +
-							Math.log10(number));
+				   Math.log10(number));
 
 		System.out.println("\n*************************");
 
