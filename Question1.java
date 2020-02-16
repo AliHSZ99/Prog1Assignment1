@@ -20,12 +20,12 @@ public class Question1{
 		System.out.print("\nWhat is the average distance(in km) that the vehicle runs with 1 liter of gas? > ");
 		double aveDistance = scan.nextDouble();
 		System.out.println("Your vehicle can travel " + aveDistance + 
-							"km with 1 liter of gas.");
+			           "km with 1 liter of gas.");
 
 		double gasPrice = (distance/aveDistance)*1.16;            // Here we do the calculations
 																  // to find the total cost of the trip
 		System.out.println("\nThe total cost of the trip is " +   // and print the value using the 
-							pricePattern.format(gasPrice));		  // DecimalFormat class
+			            pricePattern.format(gasPrice));       // DecimalFormat class
 
 		System.out.println("\n*************************");								
 
